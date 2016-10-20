@@ -12,6 +12,10 @@
 		D183CC531DB725E600B296ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D183CC511DB725E600B296ED /* Main.storyboard */; };
 		D183CC551DB725E600B296ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D183CC541DB725E600B296ED /* Assets.xcassets */; };
 		D183CC581DB725E600B296ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D183CC561DB725E600B296ED /* LaunchScreen.storyboard */; };
+		D183CC601DB73F7100B296ED /* ViewMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183CC5F1DB73F7100B296ED /* ViewMasa.swift */; };
+		D183CC621DB7432B00B296ED /* ViewQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183CC611DB7432B00B296ED /* ViewQueso.swift */; };
+		D183CC641DB7468C00B296ED /* ViewIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183CC631DB7468C00B296ED /* ViewIngredientes.swift */; };
+		D183CC661DB74E0700B296ED /* ViewConfirmar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D183CC651DB74E0700B296ED /* ViewConfirmar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		D183CC541DB725E600B296ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D183CC571DB725E600B296ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D183CC591DB725E600B296ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D183CC5F1DB73F7100B296ED /* ViewMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMasa.swift; sourceTree = "<group>"; };
+		D183CC611DB7432B00B296ED /* ViewQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewQueso.swift; sourceTree = "<group>"; };
+		D183CC631DB7468C00B296ED /* ViewIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewIngredientes.swift; sourceTree = "<group>"; };
+		D183CC651DB74E0700B296ED /* ViewConfirmar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewConfirmar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				D183CC541DB725E600B296ED /* Assets.xcassets */,
 				D183CC561DB725E600B296ED /* LaunchScreen.storyboard */,
 				D183CC591DB725E600B296ED /* Info.plist */,
+				D183CC5F1DB73F7100B296ED /* ViewMasa.swift */,
+				D183CC611DB7432B00B296ED /* ViewQueso.swift */,
+				D183CC631DB7468C00B296ED /* ViewIngredientes.swift */,
+				D183CC651DB74E0700B296ED /* ViewConfirmar.swift */,
 			);
 			path = "Asignación_pizza";
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D183CC661DB74E0700B296ED /* ViewConfirmar.swift in Sources */,
 				D183CC501DB725E600B296ED /* ViewController.swift in Sources */,
 				D183CC4E1DB725E600B296ED /* AppDelegate.swift in Sources */,
+				D183CC621DB7432B00B296ED /* ViewQueso.swift in Sources */,
+				D183CC601DB73F7100B296ED /* ViewMasa.swift in Sources */,
+				D183CC641DB7468C00B296ED /* ViewIngredientes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

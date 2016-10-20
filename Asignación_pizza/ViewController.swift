@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Pizzas"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,6 +21,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let boton = sender as! UIButton
+        let resultado: String = boton.titleLabel!.text!
+        print(resultado)
+        let sigVista = segue.destination as! ViewMasa
+        sigVista.tamanoPizza = resultado
 }
 
+}
